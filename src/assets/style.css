@@ -29,7 +29,7 @@ input{
     width: 200px;}
 
 .enviar:hover{
-    background:rgb(255, 170, 221);
+    background:rgb(255, 186, 165);
 }
 
 .enviar{
@@ -37,5 +37,5 @@ input{
     border:thin; 
     height:30px; 
     width: 80px; 
-    background:rgb(255, 145, 211) 
+    background:rgb(216, 95, 19) 
 }
