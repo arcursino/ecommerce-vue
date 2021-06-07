@@ -24,8 +24,8 @@ axios.interceptors.response.use(res => {
     }
     throw error
 });
-// Alterar o endereço sempre que subir o servidor no gitpod
-axios.defaults.baseURL = "https://8080-plum-termite-rgnq66jj.ws-us08.gitpod.io/ecommerce/";
+
+axios.defaults.baseURL = "https://8080-beige-gopher-50zpdnvd.ws-us08.gitpod.io/ecommerce";
 
 Vue.config.productionTip = false
 

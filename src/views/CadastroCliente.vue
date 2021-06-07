@@ -26,6 +26,7 @@
 <script>
     import router from '../router'
     import axios from 'axios'
+
     export default {
         name: "cadastrar",
         data() {
@@ -44,6 +45,7 @@
                     "idade": this.idade,
                     "senha": this.senha
                 }
+
                 console.log(req);
                 
                 axios.post("/cliente/", req).then(res => {
