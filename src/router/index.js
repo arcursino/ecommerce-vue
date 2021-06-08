@@ -16,13 +16,7 @@ const routes = [
         name: 'Home',
         component: () => import('../views/Home.vue'),
         redirect: store.state.token == null ? "/": ''
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: () => import('../views/About.vue'),
-        redirect: store.state.token == null ? "/": ''
-    },
+    },    
     {
         path: '/clientes',
         name: 'Clientes',

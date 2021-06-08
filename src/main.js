@@ -26,7 +26,7 @@ axios.interceptors.response.use(res => {
 });
 
 //Sempre trocar o endereço do servidor
-axios.defaults.baseURL = "https://8080-yellow-aardvark-kpqn6gpm.ws-us08.gitpod.io/ecommerce";
+axios.defaults.baseURL = "https://8080-teal-panther-cn78i1gj.ws-us08.gitpod.io/ecommerce/";
 
 Vue.config.productionTip = false
 
